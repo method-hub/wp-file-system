@@ -4,6 +4,18 @@
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "description": "A safe and convenient object-oriented wrapper for the WordPress Filesystem API",
+    "keywords": [
+        "wordpress",
+        "filesystem",
+        "wp-filesystem",
+        "files",
+        "uploads"
+    ],
+    "homepage": "https://github.com/method-hub/wp-file-system",
+    "support": {
+        "issues": "https://github.com/method-hub/wp-file-system/issues",
+        "source": "https://github.com/method-hub/wp-file-system"
+    },
     "autoload": {
         "psr-4": {
             "Metapraxis\\WPFileSystem\\": "src/",
