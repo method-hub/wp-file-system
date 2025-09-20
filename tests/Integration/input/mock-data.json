@@ -1,0 +1,16 @@
+{
+  "project": "WP File System Mock",
+  "version": "1.0.0",
+  "status": "active",
+  "last_update": "2025-09-15",
+  "settings": {
+    "show_errors": true,
+    "timeout": 30,
+    "features": [
+      "reader",
+      "writer",
+      "auditor"
+    ]
+  },
+  "data": null
+}

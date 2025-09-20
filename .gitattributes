@@ -1,0 +1,29 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+/tests/ export-ignore
+/.github/ export-ignore
+/.husky/ export-ignore
+
+/bin/ export-ignore
+/playwright-report/ export-ignore
+/node_modules/ export-ignore
+test-results export-ignore
+
+/.phpcs.xml.dist export-ignore
+.phpunit.result.cache export-ignore
+/.wp-env.json export-ignore
+/commitlint.config.js export-ignore
+/phpstan.neon.dist export-ignore
+/phpunit.xml.dist export-ignore
+/playwright.config.js export-ignore
+/.gitignore export-ignore
+/package.json export-ignore
+/package-lock.json export-ignore
+
+/CODE_OF_CONDUCT.md export-ignore
+/CONTRIBUTING.md export-ignore

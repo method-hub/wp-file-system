@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+COMMIT_MSG_FILE=$1
+COMMIT_SOURCE=$2
+SHA1=$3
+
+AUTHOR_NAME=$(git config user.name)
+AUTHOR_EMAIL=$(git config user.email)
+
+if ! grep -q "Authored-by:" "$COMMIT_MSG_FILE"; then
+  echo "" >> "$COMMIT_MSG_FILE"
+  echo "Authored-by: $AUTHOR_NAME <$AUTHOR_EMAIL>" >> "$COMMIT_MSG_FILE"
+fi
+
+exit 0

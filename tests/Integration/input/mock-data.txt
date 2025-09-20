@@ -1,0 +1,4 @@
+This is a simple mock text file.
+It contains multiple lines for testing file reading and parsing.
+Line 3 includes numbers: 1234567890.
+The last line is here.

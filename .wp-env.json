@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "wp-content/plugins/metapraxis-wp-file-system": "."
+  },
+  "config": {
+    "FS_METHOD": "direct",
+    "WP_PHP_BINARY": "php",
+    "WP_TESTS_DIR": "/var/www/html/wp-content/plugins/metapraxis-wp-file-system/tests",
+    "WP_TESTS_BOOTSTRAP": "/var/www/html/wp-content/plugins/metapraxis-wp-file-system/tests/E2E/bootstrap.php"
+  },
+  "port": 8888,
+  "testsPort": 8889,
+  "phpVersion": "7.4"
+}
